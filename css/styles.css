@@ -79,14 +79,10 @@ ul {
    padding-top: 200px;
    padding-bottom: 30px;
    text-align: center;
-   
-}
-
-.background-h1 {
    background-image: url(/goit-markup-hw-04/images/background/Img\ Overlay.png), url(/goit-markup-hw-04/images/background/peopleWorking.jpg);
    background-repeat: no-repeat;
-   max-width: 1600px;
-   height: 600px;
+   background-position: center;
+   background-size: auto 100%;
 }
 
 .heading2 {
@@ -102,7 +98,6 @@ ul {
    padding-bottom: 200px;
    padding-top: 30px;
 }
-
 
 .article {
    font-size: 0.875rem;
@@ -365,3 +360,9 @@ ul {
    gap: 4px;
    background: var(--white);
 } 
+
+.envelope {
+   width: 16px;
+   height: 12px;
+   color: var(--grey);
+}
