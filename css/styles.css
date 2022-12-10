@@ -279,7 +279,7 @@ ul {
 
 .footer-theme { 
    background: var(--dark-backgorund);
-   display: block;
+
    padding-top: 60px;
    padding-left: 215px;
 }
@@ -289,6 +289,7 @@ ul {
    flex-direction: column;
    padding-top: 20px;
    padding-bottom: 60px;
+   padding-right: 939px;
    gap: 9px;
 }
 
@@ -364,5 +365,100 @@ ul {
 .envelope {
    width: 16px;
    height: 12px;
-   color: var(--grey);
+   fill: currentColor;
+   vertical-align: middle;
+   margin-right: 10px;
 }
+
+.smartphone {
+   width: 10px;
+   height: 16px;
+   fill: currentColor;
+   vertical-align: middle;
+   margin-right: 10px;
+}
+
+.icons-h2 {
+   width: 65,32px;
+   height: 70px;
+   margin-bottom: 55px;
+}
+
+.social-media-position {
+   display: flex;
+   justify-content: space-around;
+   padding: 16px 32px 30px 32px;
+}
+
+.social-media-bg:hover,
+.social-media-bg:focus {
+   background:  var(--blue);
+   fill: var(--white);
+} 
+
+.social-media-bg {
+   width: 44px;
+   height: 44px;
+   border: solid;
+   border: none;
+   border-radius: 50%;
+   fill: #afb1b8;
+}
+
+.client {
+   display: flex;
+   justify-content: center;
+   padding-top: 50px;
+   padding-bottom: 94px;
+   gap: 30px;
+}
+
+.client-list {
+   display: block;
+   padding: 16px 32px;
+   border: 1px solid #afb1b8;
+   border-radius: 4px;
+   fill:#afb1b8
+}
+
+.client-list:hover,
+.client-list:focus {
+   border-color: var(--blue);
+   fill: #2196f3;
+}
+
+.footer-social-media {
+   display: block;
+}
+
+.heading5 {
+   font-size: 14px;
+   font-weight: 700px;
+   line-height: 1.17;
+   letter-spacing: 0.03em;
+   color: var(--white);
+}
+
+.social-media-them {
+   width: 44px;
+   height: 44px;
+   border: solid;
+   border: none;
+   border-radius: 50%;
+   fill: var(--white);
+   background: rgba(255, 255, 255, 0.1);
+   padding: 12px;
+   display: flex;
+}
+
+.social-media-them:hover,
+.social-media-them:focus {
+   background:var(--blue);
+}
+ 
+.social-media-svg {
+   display: flex;
+   gap: 10px;
+   padding-top: 20px;
+}
+
