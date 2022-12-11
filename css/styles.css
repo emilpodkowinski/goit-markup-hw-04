@@ -289,7 +289,6 @@ ul {
    flex-direction: column;
    padding-top: 20px;
    padding-bottom: 60px;
-   padding-right: 939px;
    gap: 9px;
 }
 
@@ -429,6 +428,8 @@ ul {
 
 .footer-social-media {
    display: block;
+   margin-top: -18px; 
+   
 }
 
 .heading5 {
@@ -462,3 +463,11 @@ ul {
    padding-top: 20px;
 }
 
+.emil {
+   display: flex;
+}
+
+.address-sm-position {
+   display: flex;
+   gap: 70px;
+}
